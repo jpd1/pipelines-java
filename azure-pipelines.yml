@@ -22,5 +22,5 @@ steps:
 - task: dependency-check-build-task@6
   inputs:
     projectName: 'Test'
-    scanPath: '/**/*.jar'
+    scanPath: '/home/vsts/work/1/s/target/helloworld/*.jar'
     format: 'HTML'
