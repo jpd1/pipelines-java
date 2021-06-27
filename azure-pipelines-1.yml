@@ -66,6 +66,3 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
  
-- ${{ each value in parameters.listOfStrings }}:
-  - script: echo ${{ value }
-
